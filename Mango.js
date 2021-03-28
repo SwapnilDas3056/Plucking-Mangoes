@@ -10,7 +10,7 @@ class Mango {
       this.y = y;
       this.r = r;
       this.body = Bodies.circle(this.x, this.y, this.r, options);
-      this.image = loadImage("Plucking Mangoes/mango.png")
+      this.image = loadImage("mango.png")
       World.add(world, this.body);
     }
     display(){
